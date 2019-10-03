@@ -1,0 +1,41 @@
+p{
+	color:white;
+	font-size: 25px;
+	font-weight: 3px;
+	font-family:helvetica;
+	background:black;
+
+}
+
+div{
+	width:20px;
+	height:100px;
+	background:red;
+	}
+
+#right-side{
+	position: absolute;
+	top: 65px;
+	left: 85px;
+	height: 415px;
+	width: 20px;
+	background:red;
+}
+#crossbar{
+	height: 15px;
+	width: 115px;
+	background:black;
+	position: absolute;
+	top: 200px;
+	left:0px;
+}
+
+#top{
+	height: 15px;
+	width: 115px;
+	background:black;
+	position: absolute;
+	top: 65px;
+	left:0px;
+}
+

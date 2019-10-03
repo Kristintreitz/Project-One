@@ -1,0 +1,156 @@
+
+/*LETTER A*/
+#a-right-side{
+	position: relative;
+	top: 20px;
+	left: 85px;
+	height: 250px;
+	width: 20px;
+	background:red;
+	z-index: 10;
+}
+#a-crossbar{
+	height: 15px;
+	width: 50px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:25px;
+	z-index: 10;
+}
+
+#a-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+	z-index: 10;
+}
+
+#a-left-side{
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	height: 250px;
+	width: 20px;
+	background:red;
+	z-index: 10;
+}
+
+/*LETTER F*/
+
+#f-crossbar{
+	height: 15px;
+	width: 50px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:40px;
+}
+
+#f-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+
+
+#f-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+
+
+
+p{
+	color: black;
+	width: 800px;
+	font-size: 10px;
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	line-height: 2em;
+	letter-spacing: .5em;
+	word-spacing: .5em;
+	text-align: left;
+
+	column-count: 3;
+	column-gap: 20px;
+
+	background: white;
+	padding: 20px;
+
+}
+h1{
+	color: red;
+	width: 1000px;
+	font-weight: 400;
+	font-size: 40px;
+	font-family: monospace;
+	text-transform: uppercase;
+	word-spacing: .5em;
+	letter-spacing: .5em;
+	line-height: 1.6em;
+		padding: 20%;
+		text-align: left;
+		z-index: 5;
+		position: absolute;
+}
+#after{
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+h2{
+	color: red;
+	width: 800px;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: monospace;
+	text-transform: uppercase;
+	word-spacing: .5em;
+	letter-spacing: .5em;
+	line-height: 2em;
+		padding: 1.5%;
+		text-align: left
+}
+h4{
+	color: red;
+	width: 800px;
+	font-weight: 900;
+	font-size: 14px;
+	font-family: monospace;
+	text-transform: uppercase;
+	word-spacing: .5em;
+	letter-spacing: .5em;
+	line-height: 2em;
+		padding: 1.5%;
+		text-align: left
+}
+
+
+h3{
+	color: white;
+	width: 1200px;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: monospace;
+	text-transform: uppercase;
+	word-spacing: .5em;
+	letter-spacing: .5em;
+	line-height: 2em;
+		padding: 2%;
+		background: red;
+		text-align: left
+}
